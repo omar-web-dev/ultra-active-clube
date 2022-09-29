@@ -14,7 +14,7 @@
   /* ------mobile devices max with - 600 ----------- */
 @media only screen and (max-width: 600px) {
     .home {
-        margin: 0 10px 0 20px;
+        margin: 0 10px 0 20px !important;
     }
     .single-card-com {
         display: block;

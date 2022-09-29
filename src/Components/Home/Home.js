@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Blog from '../Blog/Blog';
 import Cards from '../Cards/Cards';
 import './Home.css'
 
@@ -27,6 +28,7 @@ const Home = () => {
             </div>
             <Activity /> 
           </div>
+          <Blog/>
         </div>
     );
 };

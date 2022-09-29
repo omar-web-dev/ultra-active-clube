@@ -26,7 +26,7 @@ const Activity = () => {
                 </div>
                 <div className="break-time">
                     <h4>Break time</h4>
-                    <p>{brackTime} seconds</p>
+                    <p>{brackTime?brackTime:"00"} seconds</p>
                 </div>
             </div>
         </div>
