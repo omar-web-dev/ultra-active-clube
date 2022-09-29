@@ -1,10 +1,11 @@
 import React from 'react';
+import UserPro from '../UserPro/UserPro';
 import './Activity.css'
 
 const Activity = () => {
     return (
         <div className='activity-com'>
-            <h1>I am a Activity section</h1>
+            <UserPro />
         </div>
     );
 }; 
