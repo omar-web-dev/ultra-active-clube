@@ -1,7 +1,7 @@
 import React from 'react';
 import './UserPro.css'
 
-const UserPro = () => {
+const UserPro = ({getBrack}) => {
     return (
         <div className='user-pro-com'>
             <div className='user-pro'>
@@ -30,19 +30,19 @@ const UserPro = () => {
             </div>
             <div className="body-info">
                 <div>
-                    <h4 className='s10 '>10 <span className='s'>s</span></h4>
+                    <h4 onClick={()=>getBrack(10)} className='s10'>10<span className='s'>s</span></h4>
                 </div>
                 <div>
-                    <h4  className='s10'  >20<span className='s'>s</span></h4>
+                    <h4 onClick={()=>getBrack(20)} className='s10'  >20<span className='s'>s</span></h4>
                 </div>
                 <div>
-                    <h4 className='s10'  >30<span className='s'>s</span></h4>
+                    <h4 onClick={()=>getBrack(30)} className='s10'  >30<span className='s'>s</span></h4>
                 </div>
                 <div  className='s10 active-brack'>
-                    <h4 >40<span className='s'>s</span></h4>
+                    <h4 onClick={()=>getBrack(40)} >40<span className='s'>s</span></h4>
                 </div>
                 <div>
-                    <h4  className='s10' >50<span className='s'>s</span></h4>
+                    <h4  onClick={()=>getBrack(50)} className='s10' >50<span className='s'>s</span></h4>
                 </div>
             </div>
         </div>

@@ -1,8 +1,14 @@
-import React from 'react';
 import './SingleCard.css'
 
-const SingleCard = ({gymInfo}) => {
-    console.log(gymInfo);
+const SingleCard = ({gymInfo,setTimes}) => {
+    // console.log(gymInfo);
+
+    
+    
+// const idFunc=({time})=>{
+//     console.log(time)
+// }
+
 
     const {name,picture,registered,age,time} = gymInfo
     return (
@@ -12,11 +18,12 @@ const SingleCard = ({gymInfo}) => {
                 <h4 className="name">{name}</h4>
                 <p className='des'>{registered}</p>
                 <p className='age'>For Age : {age}</p>
-                <p className='time'>Time required : {time}</p>
-                <button>Add To List</button>
+                <p className='time'>Time required : {time}s</p>
+                <button onClick={()=>setTimes(gymInfo.time)}>Add To List</button>
             </div>
         </div>
     );
 };
+
 
 export default SingleCard;

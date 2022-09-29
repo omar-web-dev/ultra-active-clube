@@ -3,8 +3,15 @@ import Activity from '../Activity/Activity';
 import Cards from '../Cards/Cards';
 import './Home.css'
 
+
+
 const Home = () => {
     const [gymInfos, setGymInfos] = useState([])
+    const [times,setTimes] = useState('') 
+    let newArry = []
+
+    console.log(times);
+    
     useEffect(()=>{
       fetch(`gym.json`)
       .then(res=>res.json())
@@ -16,7 +23,7 @@ const Home = () => {
           <div className='cards-area'>
             <div className="home">
                 <img className='logo' src={'https://i.ibb.co/3Fs58N6/logo.png'} alt='logo'/> 
-                <Cards gymInfos={gymInfos} />
+                <Cards setTimes={setTimes} gymInfos={gymInfos} />
             </div>
             <Activity /> 
           </div>
