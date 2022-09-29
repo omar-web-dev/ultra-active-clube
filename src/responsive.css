@@ -1,0 +1,28 @@
+.single-card-com{display: grid;grid-template-columns: repeat(3,1fr);gap: 30px;}
+
+@media only screen and (max-width: 992px ){
+    .home {
+        margin: 0 45px 0 75px;
+    }
+    .single-card-com {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cards-area {
+        grid-template-columns: 65% 35%;
+    }
+  }
+  /* ------mobile devices max with - 600 ----------- */
+@media only screen and (max-width: 600px) {
+    .home {
+        margin: 0 10px 0 20px;
+    }
+    .single-card-com {
+        display: block;
+    }
+    .cards-area {
+        grid-template-columns: 60% 40%;
+    }
+    .card{
+        margin: 10px 0;
+    }
+  }
