@@ -1,13 +1,13 @@
 import React from 'react';
+import SingleCard from '../SingleCard/SingleCard';
 import './Cards.css'
 
 const Cards = () => {
     return (
         <div className='cards-com'>
-           <h1>I am cards section</h1> 
-           <div className="cards-area">
-            <img src="../../../img/1.png" alt="images" />
-           </div>
+           <h3>Select today’s exercise</h3> 
+            <SingleCard />
+           
         </div>
     );
 };
