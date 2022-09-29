@@ -1,6 +1,9 @@
 .card-area{
     border: solid red 1px;
 }
+/* .cards-com{
+    display: grid;grid-template-columns: repeat(3,1fr);gap: 30px;
+} */
 .cards-com h3{
     margin-bottom: 16px;
 }

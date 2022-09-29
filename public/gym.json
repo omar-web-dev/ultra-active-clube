@@ -4,7 +4,7 @@
         "picture": "https://i.ibb.co/xFQMdrV/1.png",
         "age": 28,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "50:30"
     },
     {
@@ -12,7 +12,7 @@
         "picture": "https://i.ibb.co/gDjgsXG/2.png",
         "age": 26,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "30:30"
     },
     {
@@ -20,7 +20,7 @@
         "picture": "https://i.ibb.co/tJpXctq/3.png",
         "age": 29,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "55:30"
     },
     {
@@ -28,7 +28,7 @@
         "picture": "https://i.ibb.co/FqpJrxc/4.png",
         "age": 22,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "46:33"
     },
     {
@@ -36,7 +36,7 @@
         "picture": "https://i.ibb.co/SBbmbRt/5.png",
         "age": 25,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "45:33"
     },
     {
@@ -44,7 +44,7 @@
         "picture": "https://i.ibb.co/QcykRCL/6.png",
         "age": 28,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "53:38"
     },
     {
@@ -52,7 +52,7 @@
         "picture": "https://i.ibb.co/0Fx7zxb/7.png",
         "age": 32,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "57:30"
     },
     {
@@ -60,7 +60,7 @@
         "picture": "https://i.ibb.co/3krkmtj/8.png",
         "age": 32,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "75:33"
     },
     {
@@ -68,7 +68,7 @@
         "picture": "https://i.ibb.co/YWY8BHg/9.png",
         "age": 22,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "53:32"
     },
     {
@@ -76,7 +76,7 @@
         "picture": "https://i.ibb.co/0cY8zJ1/10.png",
         "age": 20,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "62:43"
     },
     {
@@ -84,7 +84,7 @@
         "picture": "https://i.ibb.co/fG9Vwbn/12.png",
         "age": 24,
         "name": "Slater",
-        "registered": "{Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint}",
+        "registered": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
         "time": "54:36"
     }
 ]

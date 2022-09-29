@@ -7,7 +7,7 @@ const UserPro = () => {
             <div className='user-pro'>
                 <img src={'https://i.ibb.co/sqR0jBT/1655542833192-2.jpg'} alt="user_image" />
                 <div className='user-info'>
-                    <h4>Omar Farruk</h4>
+                    <h4>Omar Faruk</h4>
                     <p>Noakhali || Chittagong || BD</p>
                 </div>
             </div>
