@@ -1,6 +1,7 @@
+import React from 'react';
 import './SingleCard.css'
 
-const SingleCard = ({gymInfo,setTimes}) => {
+const SingleCard = ({gymInfo,handelCard}) => {
     // console.log(gymInfo);
 
     
@@ -12,15 +13,15 @@ const SingleCard = ({gymInfo,setTimes}) => {
 
     const {name,picture,registered,age,time} = gymInfo
     return (
-        <div className='card'>
+         <div className='card'>
             <img src={picture} alt="images" />
-            <div className="card-contain">
-                <h4 className="name">{name}</h4>
-                <p className='des'>{registered}</p>
-                <p className='age'>For Age : {age}</p>
-                <p className='time'>Time required : {time}s</p>
-                <button onClick={()=>setTimes(gymInfo.time)}>Add To List</button>
-            </div>
+             <div className="card-contain">
+                 <h4 className="name">{name}</h4>
+                 <p className='des'>{registered}</p>
+                 <p className='age'>For Age : {age}</p>
+                 <p className='time'>Time required : {time}s</p>
+                 <button onClick={()=>handelCard(gymInfo.time)}>Add To List</button>
+             </div> 
         </div>
     );
 };

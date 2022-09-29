@@ -2,16 +2,19 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Blog from '../Blog/Blog';
 import Cards from '../Cards/Cards';
+import Header from '../Header/Header';
 import './Home.css'
 
 
 
 const Home = () => {
     const [gymInfos, setGymInfos] = useState([])
-    const [times,setTimes] = useState('') 
-    let newArry = []
+    const [times,setTimes] = useState(0) 
+    function handelCard(previseTime){
+      const sum = parseFloat(times) + parseFloat(previseTime)
+      setTimes(sum)
+    }
 
-    console.log(times);
     
     useEffect(()=>{
       fetch(`gym.json`)
@@ -23,12 +26,15 @@ const Home = () => {
         <div className='home-com'>
           <div className='cards-area'>
             <div className="home">
-                <img className='logo' src={'https://i.ibb.co/3Fs58N6/logo.png'} alt='logo'/> 
-                <Cards setTimes={setTimes} gymInfos={gymInfos} />
+              <Header />
+                {/* <img className='logo' src={'https://i.ibb.co/3Fs58N6/logo.png'} alt='logo'/>  */}
+            <Cards setTimes={setTimes} gymInfos={gymInfos}  handelCard={handelCard}/>
             </div>
-            <Activity /> 
+            <Activity times={times}/> 
           </div>
-          <Blog/>
+          <div className='extra'>
+          <Blog />
+          </div>
         </div>
     );
 };

@@ -3,12 +3,16 @@
 }
 .logo{
     height: 45px;
-    margin: 60px 0 20px 0;
+    /* margin: 60px 0 20px 0; */
 }
 .home{
     margin: 0 60px 0 100px;
 }
 .cards-area{
     display: grid;
+    align-items: end;
     grid-template-columns: 3fr 1fr;
+}
+.extra{
+    padding: 0 40px 0 100px;
 }
